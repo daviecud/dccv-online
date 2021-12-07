@@ -13,7 +13,7 @@ export default function Projects() {
                         Projects
                     </h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                        Blah blah blah
+                        Please click here for more details on each project
                     </p>
                 </div>
                 <div className="flex flex-wrap -m-4">

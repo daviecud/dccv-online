@@ -20,11 +20,11 @@ export default function Testimonials() {
                                     {testimonial.quote}
                                 </p>
                                 <div className="inline-flex items-center">
-                                    <img
+                                    {/* <img
                                         src={testimonial.image}
                                         alt="testimonials"
                                         className="w-12 rounded-full flex-shrink-0 object-cover object-center"
-                                    />
+                                    /> */}
                                     <span className="flex-grow flex flex-col pl-4">
                                         <span className="title-font font-medium text-white">
                                             {testimonial.name}

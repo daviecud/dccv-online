@@ -51,7 +51,7 @@ export default function Contact() {
                   </p>
                 </div>
                 <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-                  <h2 className="title-font font-semibold text-white tracking-widest text-xs">
+                  <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                     EMAIL
                   </h2>
                   <a href={`mailto:davidwcalderwood@hotmail.com`} className="text-indigo-400 leading-relaxed">
@@ -70,11 +70,10 @@ export default function Contact() {
               onSubmit={handleSubmit}
               className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
               <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
-                Hire Me
+                Contact Me
               </h2>
               <p className="leading-relaxed mb-5">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-                suscipit officia aspernatur veritatis. Asperiores, aliquid?
+                Please feel free to contact me if you have any queries regarding work I can do for you or advice on any applications you require me to build.
               </p>
               <div className="relative mb-4">
                 <label htmlFor="name" className="leading-7 text-sm text-gray-400">

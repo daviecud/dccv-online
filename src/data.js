@@ -19,43 +19,54 @@ export const projects = [
       title: "Reach For The News",
       subtitle: "Kotlin",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "News application for Android where the user can find out the latest news for sports, business, and main breaking local news within the United Kingdom. Using MVVM architecture and built with android studio on Kotlin programming language.",
       image: "../news.png",
-      link: "https://reactbootcamp.com",
+      link: "https://github.com/daviecud/Reach-for-the-News",
     },
     {
       title: "My Todo List",
       subtitle: "React Hooks",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "Online Todo application which user can Create, Read, Update & Delete (CRUD operations) items on the their todo list. This list will be stored on the local browser allowing the user to refresh & close browser but still retain the information on return ",
       image: "./project-4.gif",
-      link: "https://github.com/daviecud/my-todo-app",
+      link: "https://reactbootcamp.com",
     },
   ];
   
   export const testimonials = [
     {
       quote:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-      image: "https://randomuser.me/api/portraits/men/1.jpg",
-      name: "Jesse Hicks",
-      company: "Zoozle",
+        "I have to thank my amazing friend David for his patience, vision and guidance. I will be forever grateful. ",
+      image: require("./rainbow.png"),
+      name: "Gillian Park",
+      company: "Rainbow Park Yoga",
     },
     {
       quote:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
+        "During his work experience placement David showed a thorough understanding of the software development process which he was able to apply to any task that was asked of him. While showing an eagerness to learn from his peers.",
       image: "https://randomuser.me/api/portraits/men/94.jpg",
-      name: "Ruben Alvarez",
-      company: "Dooble.io",
+      name: "Gordon Scobie",
+      company: "Transact T.S",
     },
   ];
   
   export const skills = [
     "Java",
-    "React",
+    "Javascript",
     "C#",
-    "Node",
-    "GraphQL",
-    "Material UI",
+    "SQL",
+    "HTML/CSS",
+    "XML",
+  ];
+
+  export const devTools = [
+    "Android Studio",
+    "Visual Studio",
+    "React",
+    "Git",
+    "Trello",
+    "Visual Code",
+    "IntelliJ",
+    "Milanote",
   ];
   
