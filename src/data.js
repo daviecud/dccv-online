@@ -16,12 +16,12 @@ export const projects = [
       link: "https://github.com/daviecud/GoSnowAndroid",
     },
     {
-      title: "Reach For The News",
+      title: "UK News",
       subtitle: "Kotlin",
       description:
         "News application for Android where the user can find out the latest news for sports, business, and main breaking local news within the United Kingdom. Using MVVM architecture and built with android studio on Kotlin programming language.",
       image: "../news.png",
-      link: "https://github.com/daviecud/Reach-for-the-News",
+      link: "https://github.com/daviecud/AndroidNewsApp.git",
     },
     {
       title: "My Todo List",
