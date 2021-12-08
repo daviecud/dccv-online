@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from "../dc-code.png";
+import Image from "../dc-porfolio.png"
 
 
 export default function About() {

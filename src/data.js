@@ -29,7 +29,7 @@ export const projects = [
       description:
         "Online Todo application which user can Create, Read, Update & Delete (CRUD operations) items on the their todo list. This list will be stored on the local browser allowing the user to refresh & close browser but still retain the information on return ",
       image: "./project-4.gif",
-      link: "https://reactbootcamp.com",
+      link: "https://todays-todos-app.netlify.app/",
     },
   ];
   
