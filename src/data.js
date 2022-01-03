@@ -69,4 +69,15 @@ export const projects = [
     "IntelliJ",
     "Milanote",
   ];
+
+  export const education = [
+    "Object Orientated Programming",
+    "Test Driven Development",
+    "Programming Languages",
+    "Design Modelling",
+    "Frameworks & Libraries",
+    "Software Architecture",
+    "SOLID Principles",
+    "Relational Databases",
+  ]
   
