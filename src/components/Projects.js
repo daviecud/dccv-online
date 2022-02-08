@@ -1,7 +1,8 @@
 import React from 'react';
+import {NavLink as Link, Route, Routes} from "react-router-dom";
 import { projects } from "../data.js";
-import { ChipIcon } from "@heroicons/react/solid"
-
+import { ChipIcon } from "@heroicons/react/solid";
+import ProjectPage from "../pages/ProjectPage";
 
 export default function Projects() {
     return (
@@ -13,17 +14,20 @@ export default function Projects() {
                         Projects
                     </h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                        Please click here for more details on each project
+                       {/* <Link to="ProjectPage" activeClassName="active">Please click here for more details on each project</Link>  */}
                     </p>
+                    {/* <Routes>
+                     <Route path="/projectpage" element={<ProjectPage />}></Route>
+                    </Routes> */}
                 </div>
                 <div className="flex flex-wrap -m-4">
                     {projects.map((project) => (
                         <div 
-                        href={project.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        key={project.image}
-                        className="sm:w-1/2 w-100 p-4">
+                            href={project.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            key={project.image}
+                            className="sm:w-1/2 w-100 p-4">
                             <div className="flex relative">
                             <img
                                 className="absolute inset-0 w-full h-full object-cover object-center"
@@ -44,6 +48,7 @@ export default function Projects() {
                         </div>
                     ))}
                 </div>
+                
             </div>
         </section>
     )
